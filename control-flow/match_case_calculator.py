@@ -9,7 +9,6 @@ try:
         case "-" : result = num1 - num2
         case "*" : result = num1 * num2
         case "/" : result = num1 / num2
-        case _: print("Check your inputs")
         
            
     print(f"The result is {result}.")
