@@ -6,7 +6,7 @@ def convert_to_celsius(fahrenheit):
      return result
 
 def convert_to_fahrenheit(celsius):
-    result = (celsius * (CELSIUS_TO_FAHRENHEIT_FACTOR)) + 32
+    result = (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + 32
     return result
 
 try:
